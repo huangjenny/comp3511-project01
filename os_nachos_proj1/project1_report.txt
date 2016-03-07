@@ -1,0 +1,9 @@
+Jenny Huang
+20338300
+jhuangav@connect.ust.hk
+
+The global variables of Thread1 and Thread2 in project1_output3.txt and project1_output4.txt are different when I schedule them in different orders.
+
+Thread2 suspends Thread1 after it displays the thread information. After Thread2 finishes executing, Thread1 is resumed, and can finish executing.
+
+The same things occur when you switch the scheduling. Thread1 suspends Thread2 after displaying the thread information. Then when Thread1 finishes executing, Thread2 will be resumed and finish executing.
